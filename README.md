@@ -55,8 +55,8 @@ An AI-powered system that predicts diseases based on symptoms and provides perso
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/Medicine_Recommandation_System.git
-   cd Medicine_Recommandation_System
+   git clone https://github.com/yourusername/Disease-Medicine-Prediction-System.git
+   cd Disease-Medicine-Prediction-System
    ```
 
 2. **Create and activate a virtual environment (recommended)**
@@ -183,41 +183,11 @@ The system uses 8 comprehensive medical datasets:
 - Osteoarthritis, Arthritis, Vertigo, Acne
 - Urinary tract infection, Psoriasis, Impetigo
 
-## 🚀 Installation
-
 ### Prerequisites
 - Python 3.8 or higher
 - pip package manager
 - 4GB RAM minimum
 - Windows/Linux/macOS
-
-### Step-by-Step Installation
-
-1. **Clone or Download the Repository**
-```bash
-cd Medicine_Recommandation_System
-```
-
-2. **Create Virtual Environment (Recommended)**
-```bash
-# Windows
-python -m venv venv
-venv\Scripts\activate
-
-# Linux/Mac
-python3 -m venv venv
-source venv/bin/activate
-```
-
-3. **Install Dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-4. **Verify Installation**
-```bash
-python -c "import sklearn, xgboost, streamlit; print('All packages installed successfully!')"
-```
 
 ## 📖 Usage
 
@@ -308,7 +278,15 @@ streamlit run app.py
 ## 📸 Screenshots
 
 ### Web Application Interface
-*(Screenshots would be added here after running the app)*
+
+#### 🏠 Home Page
+![Home Page 1](images/home1.png)
+![Home Page 2](images/home2.png)
+
+#### 📊 Result Screens
+![Result 1](images/result1.png)
+![Result 2](images/result2.png)
+![Result 3](images/result3.png)
 
 **Features shown**:
 1. Symptom selection sidebar with search
@@ -393,21 +371,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-
-## 📞 Contact & Support
-
-For questions, issues, or suggestions:
-- Open an issue on GitHub
-- Email: [itsrayushsingh@gmail.com]
-- Documentation: [Link to docs]
-
-## 🙏 Acknowledgments
-
-- Dataset sources and medical knowledge bases
-- Open-source ML community
-- Healthcare professionals who provided domain expertise
-- All contributors and testers
-
 ---
 
 **Made with  for better healthcare accessibility**
