@@ -282,44 +282,7 @@ streamlit run app.py
 - ✅ Minimal overfitting (train-test gap < 2%)
 - ✅ Robust cross-validation scores
 - ✅ Fast prediction time (< 100ms)
-
-## 📁 Project Structure
-
-```
-Medicine_Recommandation_System/
-│
-├── datasets/                      # All medical datasets
-│   ├── Training.csv
-│   ├── description.csv
-│   ├── medications.csv
-│   ├── diets.csv
-│   ├── precautions_df.csv
-│   ├── workout_df.csv
-│   ├── Symptom-severity.csv
-│   └── symtoms_df.csv
-│
-├── models/                        # Trained models (generated)
-│   ├── disease_predictor.pkl
-│   ├── label_encoder.pkl
-│   └── feature_names.pkl
-│
-├── visualizations/                # Generated visualizations
-│   ├── disease_distribution.png
-│   ├── model_comparison.png
-│   ├── confusion_matrix.png
-│   ├── feature_importance.png
-│   ├── shap_waterfall.png
-│   └── shap_summary.png
-│
-├── app.py                         # Streamlit web application
-├── data_exploration.py            # Data analysis script
-├── model_training.py              # Model training script
-├── recommendation_engine.py       # Recommendation system
-├── requirements.txt               # Python dependencies
-├── README.md                      # This file
-└── index.html                     # Project landing page
-```
-
+  
 ## 🛠️ Technologies Used
 
 ### Machine Learning
